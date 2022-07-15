@@ -86,6 +86,7 @@ if rentaltimestarted then
      local vehicle = CreateVehicle(vehiclehash, vector3(Config.Coords.x,Config.Coords.y, Config.Coords.z),Config.Coords.h, true, false)
      TaskWarpPedIntoVehicle(ped, vehicle, -1)
      SetModelAsNoLongerNeeded(vehicle)
+     TriggerEvent("vehiclekeys:client:SetOwner", GetVehicleNumberPlateText(vehicle))
 
     while (cd ~= 0) do 
 
