@@ -18,6 +18,8 @@
 
 **[qb-target](https://github.com/qbcore-framework/qb-target)**
 
+**[DrawText](https://github.com/dollar-src/drawtext)**
+
 
 
 
